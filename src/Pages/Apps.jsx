@@ -2,15 +2,25 @@ import React, { useState } from 'react';
 import useAppData from '../Hooks/useAppData';
 import AppCard from '../Components/AppCard/AppCard';
 import AppNotFound from '../Components/AppNotFound/AppNotFound';
+import logoImg from '.././assets/logo.png'
 
 const Apps = () => {
-    const { apps, loading } = useAppData()
+    const { apps, loading } = useAppData();
+    const [searching, setSearching] = useState(false)
     const [searched, setSearched] = useState('')// state for filtering
 
     // get input value
     const handleSearch = (e) => {
         const userSearch = e.target.value;
         setSearched(userSearch)
+
+        // Show searching animation
+        setSearching(true);
+
+        // Simulate search delay (e.g., 300ms)
+        setTimeout(() => {
+            setSearching(false);
+        }, 100);
     }
 
 
@@ -43,24 +53,40 @@ const Apps = () => {
                                 <path d="m21 21-4.3-4.3"></path>
                             </g>
                         </svg>
-                        <input defaultValue={searched} onChange={handleSearch} type="search" required placeholder="Search" />
+                        <input value={searched} onChange={handleSearch} type="search" required placeholder="Search" />
                     </label>
                 </div>
                 <div className='flex flex-col items-center justify-center'>
                     {
                         loading ?
-                            <div className="flex w-52 flex-col gap-4">
-                                <div className="skeleton h-32 w-full"></div>
-                                <div className="skeleton h-4 w-28"></div>
-                                <div className="skeleton h-4 w-full"></div>
-                                <div className="skeleton h-4 w-full"></div>
-                            </div> : searchMatchedApps.length === 0 ? <div className='flex justify-center'>
-                                <AppNotFound  ></AppNotFound>
-                            </div> : <div className='grid  grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4' >{
-
-                                searchMatchedApps.map(app => <AppCard key={app.id} app={app}></AppCard>)
-                            }
+                            <div className="flex items-center justify-center gap-2 ">
+                                <div className='animate-spin'>
+                                    <img className='h-15' src={logoImg} alt="" />
+                                </div>
+                                <p className='text-center text-gray-500 text-3xl font-semibold'>
+                                    Loading...
+                                </p>
                             </div>
+
+                            : searching ?
+                                <div className="flex items-center justify-center gap-2 ">
+                                    <div className='animate-spin'>
+                                        <img className='h-15' src={logoImg} alt="" />
+                                    </div>
+                                    <p className='text-center text-gray-500 text-3xl font-semibold'>
+                                        Searching...
+                                    </p>
+                                </div>
+
+
+
+                                : searchMatchedApps.length === 0 ? <div className='flex justify-center'>
+                                    <AppNotFound  ></AppNotFound>
+                                </div> : <div className='grid  grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4' >{
+
+                                    searchMatchedApps.map(app => <AppCard key={app.id} app={app}></AppCard>)
+                                }
+                                </div>
                     }
                 </div>
             </div>

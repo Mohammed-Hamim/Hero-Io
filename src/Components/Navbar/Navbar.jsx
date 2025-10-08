@@ -1,11 +1,12 @@
 import React from 'react';
-import { NavLink } from 'react-router';
+import { NavLink, useNavigate } from 'react-router';
 import logo from '../../assets/logo.png'
 import { IoLogoGithub, IoMdHome } from 'react-icons/io';
 import { MdApps } from 'react-icons/md';
 import { RiInstallFill } from 'react-icons/ri';
 
 const Navbar = () => {
+    const Navigate = useNavigate()
     return (
         <nav className="navbar container mx-auto  ">
             <div className="navbar-start">
@@ -19,11 +20,12 @@ const Navbar = () => {
                         <NavLink className='py-2 px-4' to={'/'}>Home</NavLink>
                         <NavLink className='py-2 px-4' to={'/apps'}>Apps</NavLink>
                         <NavLink className='py-2 px-4' to={'/installation'}>Installation</NavLink>
-
                     </ul>
+                </div >
+                <div className='flex gap-2 items-center' onClick={() => Navigate()}>
+                    <img className='h-[60px]' src={logo} alt="" />
+                    <a className=" font-bold text-xl text-[#632EE3] md:text-3xl ">HERO.IO</a>
                 </div>
-                <img className='h-[60px]' src={logo} alt="" />
-                <a className=" font-bold text-xl text-[#632EE3] md:text-3xl ">HERO.IO</a>
             </div>
 
             <div className='navbar-center'>

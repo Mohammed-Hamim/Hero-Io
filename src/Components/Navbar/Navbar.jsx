@@ -23,7 +23,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <img className='h-[60px]' src={logo} alt="" />
-                <a className=" font-bold text-xl md:text-3xl ">HERO.IO</a>
+                <a className=" font-bold text-xl text-[#632EE3] md:text-3xl ">HERO.IO</a>
             </div>
 
             <div className='navbar-center'>

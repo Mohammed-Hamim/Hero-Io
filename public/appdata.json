@@ -6,9 +6,9 @@
         "id": 1,
         "description": "Stream millions of songs and podcasts for free. Create playlists and discover new music.",
         "size": 45,
-        "reviews": 5500000,
+        "reviews": 55,
         "ratingAvg": 4.5,
-        "downloads": 1000000000,
+        "downloads": 10,
         "ratings": [
             {
                 "name": "1 star",
@@ -39,9 +39,9 @@
         "id": 2,
         "description": "Share photos and videos, chat, and explore the world through reels and stories.",
         "size": 85,
-        "reviews": 8200000,
+        "reviews": 820,
         "ratingAvg": 4.3,
-        "downloads": 5000000000,
+        "downloads": 500,
         "ratings": [
             {
                 "name": "1 star",
@@ -72,9 +72,9 @@
         "id": 3,
         "description": "Connect with friends, share updates, and join communities you care about.",
         "size": 70,
-        "reviews": 9300000,
+        "reviews": 930,
         "ratingAvg": 4.1,
-        "downloads": 5000000000,
+        "downloads": 500,
         "ratings": [
             {
                 "name": "1 star",
@@ -105,9 +105,9 @@
         "id": 4,
         "description": "Join the conversation. Share your thoughts and discover what's happening in real time.",
         "size": 60,
-        "reviews": 4700000,
+        "reviews": 47,
         "ratingAvg": 4.0,
-        "downloads": 2000000000,
+        "downloads": 20,
         "ratings": [
             {
                 "name": "1 star",
@@ -138,9 +138,9 @@
         "id": 5,
         "description": "Watch, upload, and share videos. Stay connected to your favorite creators.",
         "size": 95,
-        "reviews": 12500000,
+        "reviews": 12.5,
         "ratingAvg": 4.6,
-        "downloads": 10000000000,
+        "downloads": 100,
         "ratings": [
             {
                 "name": "1 star",
@@ -171,9 +171,9 @@
         "id": 6,
         "description": "Free, simple, secure messaging and calling across the world.",
         "size": 40,
-        "reviews": 6500000,
+        "reviews": 65,
         "ratingAvg": 4.7,
-        "downloads": 5000000000,
+        "downloads": 50,
         "ratings": [
             {
                 "name": "1 star",
@@ -204,9 +204,9 @@
         "id": 7,
         "description": "Share quick photos and messages that disappear. Stay in touch with friends.",
         "size": 65,
-        "reviews": 4200000,
+        "reviews": 42,
         "ratingAvg": 4.2,
-        "downloads": 1000000000,
+        "downloads": 10,
         "ratings": [
             {
                 "name": "1 star",
@@ -237,9 +237,9 @@
         "id": 8,
         "description": "Create and watch short videos. Discover creative content around the world.",
         "size": 110,
-        "reviews": 8900000,
+        "reviews": 89,
         "ratingAvg": 4.4,
-        "downloads": 3000000000,
+        "downloads": 30,
         "ratings": [
             {
                 "name": "1 star",
@@ -270,9 +270,9 @@
         "id": 9,
         "description": "Navigate the world with real-time GPS, traffic, and local business info.",
         "size": 75,
-        "reviews": 4900000,
+        "reviews": 49,
         "ratingAvg": 4.6,
-        "downloads": 10000000000,
+        "downloads": 10,
         "ratings": [
             {
                 "name": "1 star",
@@ -303,9 +303,9 @@
         "id": 10,
         "description": "Stream movies, series, and exclusive shows. Watch anywhere, anytime.",
         "size": 90,
-        "reviews": 7600000,
+        "reviews": 76,
         "ratingAvg": 4.5,
-        "downloads": 1000000000,
+        "downloads": 10,
         "ratings": [
             {
                 "name": "1 star",
@@ -336,9 +336,9 @@
         "id": 11,
         "description": "Fast and secure messaging with powerful privacy features and large group support.",
         "size": 50,
-        "reviews": 3200000,
+        "reviews": 32,
         "ratingAvg": 4.7,
-        "downloads": 1000000000,
+        "downloads": 10,
         "ratings": [
             {
                 "name": "1 star",
@@ -369,9 +369,9 @@
         "id": 12,
         "description": "Video conferencing made simple for work, school, and personal meetings.",
         "size": 65,
-        "reviews": 2100000,
+        "reviews": 21,
         "ratingAvg": 4.2,
-        "downloads": 1000000000,
+        "downloads": 10,
         "ratings": [
             {
                 "name": "1 star",
@@ -402,9 +402,9 @@
         "id": 13,
         "description": "Professional networking and job searching platform to grow your career.",
         "size": 80,
-        "reviews": 1800000,
+        "reviews": 18,
         "ratingAvg": 4.3,
-        "downloads": 1000000000,
+        "downloads": 10,
         "ratings": [
             {
                 "name": "1 star",
@@ -435,9 +435,9 @@
         "id": 14,
         "description": "Dive into communities, discussions, and trending memes all in one app.",
         "size": 70,
-        "reviews": 1500000,
+        "reviews": 15,
         "ratingAvg": 4.4,
-        "downloads": 500000000,
+        "downloads": 5,
         "ratings": [
             {
                 "name": "1 star",
@@ -468,9 +468,9 @@
         "id": 15,
         "description": "Discover new ideas for recipes, home design, fashion, and more.",
         "size": 55,
-        "reviews": 2100000,
+        "reviews": 21,
         "ratingAvg": 4.5,
-        "downloads": 1000000000,
+        "downloads": 10,
         "ratings": [
             {
                 "name": "1 star",
@@ -501,9 +501,9 @@
         "id": 16,
         "description": "Shop millions of products, track orders, and enjoy fast delivery.",
         "size": 90,
-        "reviews": 8400000,
+        "reviews": 84,
         "ratingAvg": 4.6,
-        "downloads": 5000000000,
+        "downloads": 50,
         "ratings": [
             {
                 "name": "1 star",
@@ -534,9 +534,9 @@
         "id": 17,
         "description": "Email made easy, fast, and secure with Google integration and spam protection.",
         "size": 50,
-        "reviews": 6000000,
+        "reviews": 60,
         "ratingAvg": 4.5,
-        "downloads": 10000000000,
+        "downloads": 10,
         "ratings": [
             {
                 "name": "1 star",
@@ -567,9 +567,9 @@
         "id": 18,
         "description": "Instant messaging and video calls with your Facebook friends and contacts.",
         "size": 70,
-        "reviews": 4900000,
+        "reviews": 49,
         "ratingAvg": 4.3,
-        "downloads": 5000000000,
+        "downloads": 50,
         "ratings": [
             {
                 "name": "1 star",
@@ -600,9 +600,9 @@
         "id": 19,
         "description": "Voice, video, and text chat for gamers and communities worldwide.",
         "size": 80,
-        "reviews": 2500000,
+        "reviews": 25,
         "ratingAvg": 4.7,
-        "downloads": 500000000,
+        "downloads": 5,
         "ratings": [
             {
                 "name": "1 star",
@@ -633,9 +633,9 @@
         "id": 20,
         "description": "Edit videos with professional tools, effects, and easy templates.",
         "size": 120,
-        "reviews": 3400000,
+        "reviews": 34,
         "ratingAvg": 4.5,
-        "downloads": 1000000000,
+        "downloads": 10,
         "ratings": [
             {
                 "name": "1 star",
@@ -666,9 +666,9 @@
         "id": 21,
         "description": "Match candies to win levels and enjoy sweet puzzle adventures.",
         "size": 110,
-        "reviews": 5800000,
+        "reviews": 58,
         "ratingAvg": 4.6,
-        "downloads": 1000000000,
+        "downloads": 11,
         "ratings": [
             {
                 "name": "1 star",
@@ -699,9 +699,9 @@
         "id": 22,
         "description": "Fast, secure browser with sync, extensions, and a clean UI.",
         "size": 80,
-        "reviews": 5400000,
+        "reviews": 54,
         "ratingAvg": 4.4,
-        "downloads": 2000000000,
+        "downloads": 20,
         "ratings": [
             {
                 "name": "1 star",

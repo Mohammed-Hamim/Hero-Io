@@ -30,7 +30,7 @@ export const router = createBrowserRouter([
                 element: <Installation></Installation>
             },
             {
-                path: '/appdetails/:id',
+                path: '/appDetails/:id',
                 element: <AppDetails></AppDetails>
             }
         ]

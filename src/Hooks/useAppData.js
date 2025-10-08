@@ -10,12 +10,12 @@ const useAppData = () => {
     useEffect(() => {
         setLoading(true)
         axios('../appdata.json')
-        .then(data => setApps(data.data))
-        .catch(err => setError(err))
-        .finally(() => setLoading(false))
+            .then(data => setApps(data.data))
+            .catch(err => setError(err))
+            .finally(() => setLoading(false))
     }, [])
 
-    return { apps, loading, error }
+    return { apps, loading,  error }
 
 }
 

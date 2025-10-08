@@ -1,24 +1,28 @@
 import React from 'react';
-import { useParams } from 'react-router';
+import { Link, useParams } from 'react-router';
 import useAppData from '../../Hooks/useAppData';
 import downloadImg from '../../assets/icon-downloads.png'
 import reviewImg from '../../assets/icon-review.png'
 import ratingImg from '../../assets/icon-ratings.png'
+import { Area, Bar, CartesianGrid, ComposedChart, Legend, Line, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 
 const AppDetails = () => {
     const { id } = useParams()
     const { apps, loading } = useAppData()
     const clickedApp = apps.find(app => app.id === Number(id))
     if (loading) return <p>Loading.....</p>
-    const { image, title, companyName, description, ratings, ratingAvg, downloads, reviews } = clickedApp;
+    const { image, title, size, companyName, description, ratings, ratingAvg, downloads, reviews } = clickedApp;
+
+    // const reversedRatings = ratings.sort((a, b) => b.count - a.count);
+    const reversedRatings = [...ratings].sort((a, b) => b.count - a.count);
 
     return (
-        <div className=''>
-            <div className='flex gap-8 flex-col md:flex-row p-5'>
-                <div className=''>
+        <div className='container mx-auto p-5'>
+            <div className='flex   gap-8 flex-col md:flex-row max-h-[350px] '>
+                <div >
                     <img className=' h-[350px] w-[350px]' src={image} alt="" />
                 </div>
-                <div className='flex flex-col flex-1 gap-5'>
+                <div className='flex flex-col flex-1 gap-3'>
                     <h2 className='text-[#001931] text-3xl font-bold'>{title}</h2>
                     <h3 className='text-xl text-gray-600'>Developed By: <span className='text-fuchsia-800'>{companyName}</span></h3>
                     <div className="divider"></div>
@@ -42,6 +46,29 @@ const AppDetails = () => {
                             <h2 className='text-[40px] font-bold'>{reviews}K</h2>
                         </div>
                     </div>
+                    <Link className='btn bg-linear-to-r from-[#54CF68] to-[#00827A] max-w-[240px] text-white '>Install Now ({size}MB)</Link>
+                </div>
+            </div>
+
+            <div className="divider"></div>
+            <div className=' h-[400px] my-8'>
+                <h2 className='font-bold text-2xl mb-2'>Ratings</h2>
+                <ResponsiveContainer height="100%">
+                    <ComposedChart layout="vertical"
+                        data={reversedRatings}>
+                        <CartesianGrid strokeDasharray="3 3" />
+                        <XAxis axisLine={false}    tickLine={false}  type="number" dataKey='count' />
+                        <YAxis  axisLine={false}    tickLine={false}  dataKey="name" type="category" />
+                        <Tooltip />
+                        <Bar dataKey={"count"} barSize={30} fill="#FF8811" />
+                    </ComposedChart>
+                </ResponsiveContainer>
+            </div>
+            <div className="divider"></div>
+            <div>
+                <h2 className='text-2xl font-bold'>Description</h2>
+                <div className='my-5'>
+                    <p className='text-gray-900 text-justify'>{description}</p>
                 </div>
             </div>
         </div>

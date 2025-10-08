@@ -4,7 +4,7 @@
         "title": "Spotify",
         "companyName": "Spotify Ltd.",
         "id": 1,
-        "description": "Stream millions of songs and podcasts for free. Create playlists and discover new music.",
+        "description": "Spotify is the world's leading audio streaming platform, offering millions of songs, podcasts, and playlists at your fingertips. Enjoy seamless access to both global hits and niche tracks, curated to your taste, with personalized recommendations powered by advanced algorithms. Whether you are commuting, working out, or relaxing, Spotify provides an intuitive experience with features like collaborative playlists, offline listening, and high-quality audio streaming. Its user-friendly interface and cross-platform support make it the ultimate choice for music lovers seeking both convenience and variety.",
         "size": 45,
         "reviews": 55,
         "ratingAvg": 4.5,
@@ -37,7 +37,7 @@
         "title": "Instagram",
         "companyName": "Meta Platforms Inc.",
         "id": 2,
-        "description": "Share photos and videos, chat, and explore the world through reels and stories.",
+        "description": "Instagram is a leading social media platform designed to help you capture, share, and explore moments with friends, family, and followers worldwide. Post photos and videos, create Stories, and engage through Reels to showcase your creativity. Instagram provides an intuitive interface with powerful editing tools, filters, and interactive features, fostering authentic connections and community engagement. Discover trends, follow your favorite creators, and participate in a visually-rich environment that inspires creativity and meaningful interactions every day.",
         "size": 85,
         "reviews": 820,
         "ratingAvg": 4.3,
@@ -70,7 +70,7 @@
         "title": "Facebook",
         "companyName": "Meta Platforms Inc.",
         "id": 3,
-        "description": "Connect with friends, share updates, and join communities you care about.",
+        "description": "Facebook is a globally recognized social networking platform connecting billions of users across the globe. Engage with friends and family by sharing updates, photos, and videos, join groups and communities that reflect your interests, and discover trending topics that matter to you. Facebook provides a suite of communication tools including Messenger, Events, and Marketplace, ensuring a comprehensive experience for social interaction. With a focus on personalization and user safety, Facebook offers a dynamic, secure, and interactive platform for building connections and staying informed.",
         "size": 70,
         "reviews": 930,
         "ratingAvg": 4.1,
@@ -103,7 +103,7 @@
         "title": "X (Twitter)",
         "companyName": "X Corp.",
         "id": 4,
-        "description": "Join the conversation. Share your thoughts and discover what's happening in real time.",
+        "description": "X (formerly Twitter) is a fast-paced social media platform designed for real-time communication and information sharing. Follow news, trends, and conversations from around the globe, post short messages, engage with communities, and participate in discussions that shape the world. X provides powerful tools for content discovery, trending topics, and personalized feeds, allowing users to connect with people, brands, and movements that resonate with their interests. Its simple interface and mobile-friendly design make it ideal for staying informed and expressing your voice instantly.",
         "size": 60,
         "reviews": 47,
         "ratingAvg": 4.0,
@@ -136,7 +136,7 @@
         "title": "YouTube",
         "companyName": "Google LLC",
         "id": 5,
-        "description": "Watch, upload, and share videos. Stay connected to your favorite creators.",
+        "description": "YouTube is the premier video-sharing platform where millions of creators upload, share, and stream content daily. Explore a wide range of videos, from educational tutorials and music videos to entertainment and live streams, all tailored to your interests. With features like subscriptions, playlists, recommendations, and high-definition streaming, YouTube delivers a personalized viewing experience. Users can engage with creators through comments, likes, and community posts, making it an interactive and immersive platform for learning, entertainment, and global connectivity.",
         "size": 95,
         "reviews": 12.5,
         "ratingAvg": 4.6,
@@ -169,7 +169,7 @@
         "title": "WhatsApp Messenger",
         "companyName": "WhatsApp LLC",
         "id": 6,
-        "description": "Free, simple, secure messaging and calling across the world.",
+        "description": "WhatsApp Messenger is a globally trusted messaging platform offering fast, secure, and reliable communication. Connect with friends, family, and colleagues through instant text messaging, voice calls, and video calls. Features like group chats, media sharing, document exchange, and end-to-end encryption ensure that communication is seamless, convenient, and private. WhatsApp’s cross-platform functionality and intuitive interface make it the perfect tool for personal, professional, and international communication.",
         "size": 40,
         "reviews": 65,
         "ratingAvg": 4.7,
@@ -202,7 +202,7 @@
         "title": "Snapchat",
         "companyName": "Snap Inc.",
         "id": 7,
-        "description": "Share quick photos and messages that disappear. Stay in touch with friends.",
+        "description": "Snapchat is an innovative multimedia messaging app that allows users to share ephemeral photos and videos with friends. The platform encourages creativity through interactive filters, lenses, and augmented reality effects. With features such as Stories, Discover, and private messaging, Snapchat provides dynamic and engaging ways to communicate and stay updated on trending content. Its unique ephemeral nature promotes spontaneous sharing while prioritizing user privacy and secure interactions.",
         "size": 65,
         "reviews": 42,
         "ratingAvg": 4.2,
@@ -235,7 +235,7 @@
         "title": "TikTok",
         "companyName": "ByteDance Ltd.",
         "id": 8,
-        "description": "Create and watch short videos. Discover creative content around the world.",
+        "description": "TikTok is a globally popular platform for creating, sharing, and discovering short-form videos. It empowers users to showcase creativity, talent, and humor through easy-to-use editing tools, music integration, and special effects. TikTok’s algorithm provides personalized content, ensuring users see videos tailored to their interests. The app fosters engagement through likes, comments, duets, and collaborations, creating a highly interactive community where entertainment, trends, and viral moments converge.",
         "size": 110,
         "reviews": 89,
         "ratingAvg": 4.4,
@@ -268,7 +268,7 @@
         "title": "Google Maps",
         "companyName": "Google LLC",
         "id": 9,
-        "description": "Navigate the world with real-time GPS, traffic, and local business info.",
+        "description": "Google Maps is a comprehensive navigation and mapping platform providing real-time GPS, traffic updates, route planning, and local business information. Discover new places, navigate unfamiliar routes, and explore detailed maps with street view and satellite imagery. Google Maps integrates features such as live traffic alerts, public transit schedules, offline navigation, and user reviews, making it an indispensable tool for daily commutes, travel planning, and exploring the world with accuracy and convenience.",
         "size": 75,
         "reviews": 49,
         "ratingAvg": 4.6,
@@ -301,7 +301,7 @@
         "title": "Netflix",
         "companyName": "Netflix Inc.",
         "id": 10,
-        "description": "Stream movies, series, and exclusive shows. Watch anywhere, anytime.",
+        "description": "Netflix is a world-leading streaming service offering a vast library of movies, TV shows, documentaries, and original content. Enjoy high-definition streaming, personalized recommendations, offline downloads, and multi-device access. Netflix continuously updates its catalog with fresh, exclusive content, providing entertainment for every taste and preference. With a user-friendly interface and innovative features, Netflix delivers a seamless viewing experience that keeps audiences engaged and entertained globally.",
         "size": 90,
         "reviews": 76,
         "ratingAvg": 4.5,
@@ -334,7 +334,7 @@
         "title": "Telegram",
         "companyName": "Telegram FZ-LLC",
         "id": 11,
-        "description": "Fast and secure messaging with powerful privacy features and large group support.",
+        "description": "Telegram is a cloud-based messaging platform emphasizing speed, security, and privacy. Communicate seamlessly with individuals and large groups, share multimedia, and organize conversations with channels and bots. Telegram supports end-to-end encryption for private chats and offers robust tools for file sharing, group management, and customization. Its commitment to security, reliability, and innovation makes it a preferred choice for users seeking both personal and professional communication solutions.",
         "size": 50,
         "reviews": 32,
         "ratingAvg": 4.7,
@@ -367,7 +367,7 @@
         "title": "Zoom",
         "companyName": "Zoom Video Communications Inc.",
         "id": 12,
-        "description": "Video conferencing made simple for work, school, and personal meetings.",
+        "description": "Zoom is a versatile video conferencing solution that enables seamless virtual communication for business, education, and personal use. Conduct high-quality video and audio meetings, webinars, and live events with features like screen sharing, recording, breakout rooms, and collaboration tools. Zoom’s reliable platform ensures consistent performance across devices and internet conditions, making it an essential tool for connecting teams, maintaining productivity, and fostering remote collaboration with ease.",
         "size": 65,
         "reviews": 21,
         "ratingAvg": 4.2,
@@ -396,36 +396,21 @@
         ]
     },
     {
-        "image": "https://img.freepik.com/premium-vector/linkedin-round-logo-vector_667864-108.jpg?semt=ais_hybrid&w=740&q=80 ",
+        "image": "https://img.freepik.com/premium-vector/linkedin-round-logo-vector_667864-108.jpg?semt=ais_hybrid&w=740&q=80",
         "title": "LinkedIn",
         "companyName": "Microsoft Corporation",
         "id": 13,
-        "description": "Professional networking and job searching platform to grow your career.",
+        "description": "LinkedIn is the premier professional networking platform, enabling users to connect with industry professionals, showcase skills, and explore career opportunities. From job searching and recruitment to content sharing and professional learning, LinkedIn provides tools to grow your career, build a strong network, and engage with communities relevant to your profession. Its intuitive interface and robust features make it an essential platform for professionals worldwide.",
         "size": 80,
         "reviews": 18,
         "ratingAvg": 4.3,
         "downloads": 10,
         "ratings": [
-            {
-                "name": "1 star",
-                "count": 120000
-            },
-            {
-                "name": "2 star",
-                "count": 80000
-            },
-            {
-                "name": "3 star",
-                "count": 200000
-            },
-            {
-                "name": "4 star",
-                "count": 500000
-            },
-            {
-                "name": "5 star",
-                "count": 900000
-            }
+            {"name": "1 star", "count": 120000},
+            {"name": "2 star", "count": 80000},
+            {"name": "3 star", "count": 200000},
+            {"name": "4 star", "count": 500000},
+            {"name": "5 star", "count": 900000}
         ]
     },
     {
@@ -433,32 +418,17 @@
         "title": "Reddit",
         "companyName": "Reddit Inc.",
         "id": 14,
-        "description": "Dive into communities, discussions, and trending memes all in one app.",
+        "description": "Reddit is a vibrant platform for community discussions, trending news, and entertainment. Users can join subreddits to engage with like-minded communities, share content, and participate in discussions on virtually any topic. With voting systems, comment threads, and dynamic content feeds, Reddit enables users to stay informed, entertained, and connected. Its community-driven approach makes it a hub for knowledge, memes, and real-time interactions across the globe.",
         "size": 70,
         "reviews": 15,
         "ratingAvg": 4.4,
         "downloads": 5,
         "ratings": [
-            {
-                "name": "1 star",
-                "count": 90000
-            },
-            {
-                "name": "2 star",
-                "count": 60000
-            },
-            {
-                "name": "3 star",
-                "count": 150000
-            },
-            {
-                "name": "4 star",
-                "count": 400000
-            },
-            {
-                "name": "5 star",
-                "count": 800000
-            }
+            {"name": "1 star", "count": 90000},
+            {"name": "2 star", "count": 60000},
+            {"name": "3 star", "count": 150000},
+            {"name": "4 star", "count": 400000},
+            {"name": "5 star", "count": 800000}
         ]
     },
     {
@@ -466,32 +436,17 @@
         "title": "Pinterest",
         "companyName": "Pinterest Inc.",
         "id": 15,
-        "description": "Discover new ideas for recipes, home design, fashion, and more.",
+        "description": "Pinterest is a visual discovery platform that helps users find inspiration for lifestyle, home design, fashion, recipes, and more. By creating personalized boards and exploring trending content, users can organize ideas and bring them to life. Pinterest combines creative discovery with intuitive search functionality, making it easy to explore topics of interest and engage with communities of like-minded individuals worldwide.",
         "size": 55,
         "reviews": 21,
         "ratingAvg": 4.5,
         "downloads": 10,
         "ratings": [
-            {
-                "name": "1 star",
-                "count": 100000
-            },
-            {
-                "name": "2 star",
-                "count": 70000
-            },
-            {
-                "name": "3 star",
-                "count": 200000
-            },
-            {
-                "name": "4 star",
-                "count": 600000
-            },
-            {
-                "name": "5 star",
-                "count": 1130000
-            }
+            {"name": "1 star", "count": 100000},
+            {"name": "2 star", "count": 70000},
+            {"name": "3 star", "count": 200000},
+            {"name": "4 star", "count": 600000},
+            {"name": "5 star", "count": 1130000}
         ]
     },
     {
@@ -499,32 +454,17 @@
         "title": "Amazon Shopping",
         "companyName": "Amazon Mobile LLC",
         "id": 16,
-        "description": "Shop millions of products, track orders, and enjoy fast delivery.",
+        "description": "Amazon Shopping is a comprehensive e-commerce platform providing access to millions of products, fast delivery, and secure payment options. Track orders, discover deals, read reviews, and explore curated recommendations. Amazon combines convenience, variety, and reliability, making it a go-to platform for both everyday essentials and unique purchases. Its seamless shopping experience caters to personal and professional needs globally.",
         "size": 90,
         "reviews": 84,
         "ratingAvg": 4.6,
         "downloads": 50,
         "ratings": [
-            {
-                "name": "1 star",
-                "count": 500000
-            },
-            {
-                "name": "2 star",
-                "count": 300000
-            },
-            {
-                "name": "3 star",
-                "count": 800000
-            },
-            {
-                "name": "4 star",
-                "count": 2000000
-            },
-            {
-                "name": "5 star",
-                "count": 4800000
-            }
+            {"name": "1 star", "count": 500000},
+            {"name": "2 star", "count": 300000},
+            {"name": "3 star", "count": 800000},
+            {"name": "4 star", "count": 2000000},
+            {"name": "5 star", "count": 4800000}
         ]
     },
     {
@@ -532,32 +472,17 @@
         "title": "Gmail",
         "companyName": "Google LLC",
         "id": 17,
-        "description": "Email made easy, fast, and secure with Google integration and spam protection.",
+        "description": "Gmail is Google’s secure and intuitive email platform, designed for personal and professional communication. With features like smart categorization, advanced search, spam protection, and integration with Google Workspace, Gmail allows users to efficiently manage emails and attachments. Its seamless synchronization across devices ensures accessibility anytime, anywhere, making it a reliable tool for effective communication and organization.",
         "size": 50,
         "reviews": 60,
         "ratingAvg": 4.5,
         "downloads": 10,
         "ratings": [
-            {
-                "name": "1 star",
-                "count": 300000
-            },
-            {
-                "name": "2 star",
-                "count": 150000
-            },
-            {
-                "name": "3 star",
-                "count": 400000
-            },
-            {
-                "name": "4 star",
-                "count": 1500000
-            },
-            {
-                "name": "5 star",
-                "count": 3650000
-            }
+            {"name": "1 star", "count": 300000},
+            {"name": "2 star", "count": 150000},
+            {"name": "3 star", "count": 400000},
+            {"name": "4 star", "count": 1500000},
+            {"name": "5 star", "count": 3650000}
         ]
     },
     {
@@ -565,32 +490,17 @@
         "title": "Messenger",
         "companyName": "Meta Platforms Inc.",
         "id": 18,
-        "description": "Instant messaging and video calls with your Facebook friends and contacts.",
+        "description": "Messenger by Meta Platforms Inc. is an instant messaging app that enables seamless text messaging, voice and video calls with your contacts. Integrating with Facebook, Messenger provides group chats, media sharing, and interactive features such as stickers, reactions, and games. The platform prioritizes security and ease of use, making it a reliable communication tool for personal, social, and professional interactions.",
         "size": 70,
         "reviews": 49,
         "ratingAvg": 4.3,
         "downloads": 50,
         "ratings": [
-            {
-                "name": "1 star",
-                "count": 400000
-            },
-            {
-                "name": "2 star",
-                "count": 250000
-            },
-            {
-                "name": "3 star",
-                "count": 700000
-            },
-            {
-                "name": "4 star",
-                "count": 1300000
-            },
-            {
-                "name": "5 star",
-                "count": 2250000
-            }
+            {"name": "1 star", "count": 400000},
+            {"name": "2 star", "count": 250000},
+            {"name": "3 star", "count": 700000},
+            {"name": "4 star", "count": 1300000},
+            {"name": "5 star", "count": 2250000}
         ]
     },
     {
@@ -598,32 +508,17 @@
         "title": "Discord",
         "companyName": "Discord Inc.",
         "id": 19,
-        "description": "Voice, video, and text chat for gamers and communities worldwide.",
+        "description": "Discord is a versatile communication platform for voice, video, and text interactions, designed for gaming communities, teams, and social groups. Users can create servers, join channels, share media, and collaborate through real-time communication. With robust moderation, bots, and customization options, Discord provides a reliable and engaging environment for online communities, collaboration, and entertainment.",
         "size": 80,
         "reviews": 25,
         "ratingAvg": 4.7,
         "downloads": 5,
         "ratings": [
-            {
-                "name": "1 star",
-                "count": 100000
-            },
-            {
-                "name": "2 star",
-                "count": 70000
-            },
-            {
-                "name": "3 star",
-                "count": 150000
-            },
-            {
-                "name": "4 star",
-                "count": 500000
-            },
-            {
-                "name": "5 star",
-                "count": 1680000
-            }
+            {"name": "1 star", "count": 100000},
+            {"name": "2 star", "count": 70000},
+            {"name": "3 star", "count": 150000},
+            {"name": "4 star", "count": 500000},
+            {"name": "5 star", "count": 1680000}
         ]
     },
     {
@@ -631,32 +526,17 @@
         "title": "CapCut",
         "companyName": "Bytedance Pte. Ltd.",
         "id": 20,
-        "description": "Edit videos with professional tools, effects, and easy templates.",
+        "description": "CapCut is a professional video editing application offering advanced tools, effects, and templates for creating high-quality videos. Users can trim, merge, add transitions, filters, text, and music to videos with ease. CapCut supports multi-layer editing, AI features, and high-resolution exports, making it suitable for both casual creators and professional video editors. Its intuitive interface and powerful features enable fast, creative, and polished video production.",
         "size": 120,
         "reviews": 34,
         "ratingAvg": 4.5,
         "downloads": 10,
         "ratings": [
-            {
-                "name": "1 star",
-                "count": 200000
-            },
-            {
-                "name": "2 star",
-                "count": 120000
-            },
-            {
-                "name": "3 star",
-                "count": 300000
-            },
-            {
-                "name": "4 star",
-                "count": 700000
-            },
-            {
-                "name": "5 star",
-                "count": 2080000
-            }
+            {"name": "1 star", "count": 200000},
+            {"name": "2 star", "count": 120000},
+            {"name": "3 star", "count": 300000},
+            {"name": "4 star", "count": 700000},
+            {"name": "5 star", "count": 2080000}
         ]
     },
     {
@@ -664,32 +544,17 @@
         "title": "Candy Crush Saga",
         "companyName": "King",
         "id": 21,
-        "description": "Match candies to win levels and enjoy sweet puzzle adventures.",
+        "description": "Candy Crush Saga is a highly engaging puzzle game where players match colorful candies to progress through levels. Featuring hundreds of challenges, boosters, and special candies, it offers a fun and addictive experience for casual and competitive players alike. Regular updates introduce new levels, events, and rewards, keeping gameplay fresh and exciting. Its vibrant graphics and intuitive mechanics make it accessible for players of all ages.",
         "size": 110,
         "reviews": 58,
         "ratingAvg": 4.6,
         "downloads": 11,
         "ratings": [
-            {
-                "name": "1 star",
-                "count": 250000
-            },
-            {
-                "name": "2 star",
-                "count": 120000
-            },
-            {
-                "name": "3 star",
-                "count": 400000
-            },
-            {
-                "name": "4 star",
-                "count": 1000000
-            },
-            {
-                "name": "5 star",
-                "count": 4030000
-            }
+            {"name": "1 star", "count": 250000},
+            {"name": "2 star", "count": 120000},
+            {"name": "3 star", "count": 400000},
+            {"name": "4 star", "count": 1000000},
+            {"name": "5 star", "count": 4030000}
         ]
     },
     {
@@ -697,32 +562,17 @@
         "title": "Chrome Browser",
         "companyName": "Google LLC",
         "id": 22,
-        "description": "Fast, secure browser with sync, extensions, and a clean UI.",
+        "description": "Google Chrome is a fast, secure, and versatile web browser offering a clean interface, efficient performance, and extensive customization. Features include tab management, extensions, incognito mode, cross-device synchronization, and advanced security protections. Chrome’s integration with Google services and support for modern web standards provide a seamless browsing experience for work, entertainment, and everyday online activities.",
         "size": 80,
         "reviews": 54,
         "ratingAvg": 4.4,
         "downloads": 20,
         "ratings": [
-            {
-                "name": "1 star",
-                "count": 200000
-            },
-            {
-                "name": "2 star",
-                "count": 150000
-            },
-            {
-                "name": "3 star",
-                "count": 400000
-            },
-            {
-                "name": "4 star",
-                "count": 1200000
-            },
-            {
-                "name": "5 star",
-                "count": 3450000
-            }
+            {"name": "1 star", "count": 200000},
+            {"name": "2 star", "count": 150000},
+            {"name": "3 star", "count": 400000},
+            {"name": "4 star", "count": 1200000},
+            {"name": "5 star", "count": 3450000}
         ]
     }
 ]

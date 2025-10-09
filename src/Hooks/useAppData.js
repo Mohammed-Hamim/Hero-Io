@@ -6,6 +6,7 @@ const useAppData = () => {
     const [apps, setApps] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null)
+  
 
     useEffect(() => {
         setLoading(true)
@@ -15,7 +16,7 @@ const useAppData = () => {
             .finally(() => setLoading(false))
     }, [])
 
-    return { apps, loading,  error }
+    return { apps, loading, error }
 
 }
 

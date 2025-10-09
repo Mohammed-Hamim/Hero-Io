@@ -66,9 +66,7 @@ const Apps = () => {
                                 <p className='text-center text-gray-500 text-3xl font-semibold'>
                                     Loading...
                                 </p>
-                            </div>
-
-                            : searching ?
+                            </div> : searching ?
                                 <div className="flex items-center justify-center gap-2 ">
                                     <div className='animate-spin'>
                                         <img className='h-15' src={logoImg} alt="" />
@@ -77,13 +75,9 @@ const Apps = () => {
                                         Searching...
                                     </p>
                                 </div>
-
-
-
                                 : searchMatchedApps.length === 0 ? <div className='flex justify-center'>
                                     <AppNotFound  ></AppNotFound>
                                 </div> : <div className='grid  grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4' >{
-
                                     searchMatchedApps.map(app => <AppCard key={app.id} app={app}></AppCard>)
                                 }
                                 </div>

@@ -21,7 +21,7 @@ export const addToLocalStorage = id => {
 
     if (inStalledApps.includes(id)) {
         Swal.fire({
-            position: "top-center",
+            position: "center",
             icon: "success",
             title: "App is already installed",
             showConfirmButton: false,
@@ -30,27 +30,12 @@ export const addToLocalStorage = id => {
         return;
     }
     else {
-        Swal.fire({
-            title: "Are you sure?",
+        inStalledApps.push(id)
+        const updatedInstalledApps = JSON.stringify(inStalledApps)
 
-            icon: "question",
-            showCancelButton: true,
-            confirmButtonColor: "#3085d6",
-            cancelButtonColor: "#d33",
-            confirmButtonText: "Install"
-        }).then((result) => {
 
-            if (result.isConfirmed) {
-                inStalledApps.push(id)
-                const updatedInstalledApps = JSON.stringify(inStalledApps)
-                localStorage.setItem("installedList", updatedInstalledApps)
-                Swal.fire({
-                    title: "Installed",
-                    text: "App installation Successful.",
-                    icon: "success"
-                });
-            }
-        });
+        localStorage.setItem("installedList", updatedInstalledApps)
+        
     }
 }
 

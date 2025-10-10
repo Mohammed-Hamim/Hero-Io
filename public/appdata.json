@@ -1,7 +1,8 @@
 [
     {
-        "image": "https://cdn.wccftech.com/wp-content/uploads/2021/07/Spotify.jpg ",
-        "title": "Spotify",
+        "name": "spotify",
+        "image": "https://i.ibb.co.com/5zZvnGj/spotify.jpg ",
+        "title": "Spotify Music & Podcasts",
         "companyName": "Spotify Ltd.",
         "id": 1,
         "description": "Spotify is the world's leading audio streaming platform, offering millions of songs, podcasts, and playlists at your fingertips. Enjoy seamless access to both global hits and niche tracks, curated to your taste, with personalized recommendations powered by advanced algorithms. Whether you are commuting, working out, or relaxing, Spotify provides an intuitive experience with features like collaborative playlists, offline listening, and high-quality audio streaming. Its user-friendly interface and cross-platform support make it the ultimate choice for music lovers seeking both convenience and variety.",
@@ -33,8 +34,9 @@
         ]
     },
     {
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png",
-        "title": "Instagram",
+        "name": "instagram",
+        "image": " https://i.ibb.co.com/zTCLgDYx/instagram-application-logo-23-2151544088.jpg",
+        "title": "Instagram Social Network",
         "companyName": "Meta Platforms Inc.",
         "id": 2,
         "description": "Instagram is a leading social media platform designed to help you capture, share, and explore moments with friends, family, and followers worldwide. Post photos and videos, create Stories, and engage through Reels to showcase your creativity. Instagram provides an intuitive interface with powerful editing tools, filters, and interactive features, fostering authentic connections and community engagement. Discover trends, follow your favorite creators, and participate in a visually-rich environment that inspires creativity and meaningful interactions every day.",
@@ -66,8 +68,9 @@
         ]
     },
     {
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Logo_de_Facebook.png/1028px-Logo_de_Facebook.png",
-        "title": "Facebook",
+        "name": "facebook",
+        "image": "https://i.ibb.co.com/rKL3fN9X/vector-facebook-social-media-icon-illustration-534308-21672.jpg",
+        "title": "Facebook Community App",
         "companyName": "Meta Platforms Inc.",
         "id": 3,
         "description": "Facebook is a globally recognized social networking platform connecting billions of users across the globe. Engage with friends and family by sharing updates, photos, and videos, join groups and communities that reflect your interests, and discover trending topics that matter to you. Facebook provides a suite of communication tools including Messenger, Events, and Marketplace, ensuring a comprehensive experience for social interaction. With a focus on personalization and user safety, Facebook offers a dynamic, secure, and interactive platform for building connections and staying informed.",
@@ -99,8 +102,9 @@
         ]
     },
     {
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI-h-e2hgz8mwGfCt4gvj4IgMG_wAUolVM6w&s",
-        "title": "X (Twitter)",
+        "name": "twitter",
+        "image": "https://i.ibb.co.com/Vc4kccDW/images-q-tbn-ANd9-Gc-TI-h-e2hgz8mw-Gf-Ct4gvj4-Ig-MG-w-AUol-VM6w-s.png",
+        "title": "X Real-Time Feed",
         "companyName": "X Corp.",
         "id": 4,
         "description": "X (formerly Twitter) is a fast-paced social media platform designed for real-time communication and information sharing. Follow news, trends, and conversations from around the globe, post short messages, engage with communities, and participate in discussions that shape the world. X provides powerful tools for content discovery, trending topics, and personalized feeds, allowing users to connect with people, brands, and movements that resonate with their interests. Its simple interface and mobile-friendly design make it ideal for staying informed and expressing your voice instantly.",
@@ -132,8 +136,9 @@
         ]
     },
     {
-        "image": "https://upload.wikimedia.org/wikipedia/commons/6/62/YouTube_social_white_square_%282024%29.svg",
-        "title": "YouTube",
+        "name": "youtube",
+        "image": "https://i.ibb.co.com/wrbtcfPg/youtube-color-icons-1209566-1.jpg",
+        "title": "YouTube Video Platform",
         "companyName": "Google LLC",
         "id": 5,
         "description": "YouTube is the premier video-sharing platform where millions of creators upload, share, and stream content daily. Explore a wide range of videos, from educational tutorials and music videos to entertainment and live streams, all tailored to your interests. With features like subscriptions, playlists, recommendations, and high-definition streaming, YouTube delivers a personalized viewing experience. Users can engage with creators through comments, likes, and community posts, making it an interactive and immersive platform for learning, entertainment, and global connectivity.",
@@ -165,8 +170,9 @@
         ]
     },
     {
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bc/b0/60/bcb060f2-57ec-6ea5-0378-44f7fb0e703d/AppIconCatalystRelease-0-0-2x_U007euniversal-0-0-0-5-0-0-0-85-220.png/1200x630wa.png",
-        "title": "WhatsApp Messenger",
+        "name": "whatsapp",
+        "image": "https://i.ibb.co.com/TMwxbk2T/green-square-social-media-logo-197792-2919.jpg",
+        "title": "WhatsApp Messenger & Calls",
         "companyName": "WhatsApp LLC",
         "id": 6,
         "description": "WhatsApp Messenger is a globally trusted messaging platform offering fast, secure, and reliable communication. Connect with friends, family, and colleagues through instant text messaging, voice calls, and video calls. Features like group chats, media sharing, document exchange, and end-to-end encryption ensure that communication is seamless, convenient, and private. WhatsApp’s cross-platform functionality and intuitive interface make it the perfect tool for personal, professional, and international communication.",
@@ -198,8 +204,9 @@
         ]
     },
     {
-        "image": "https://buffer.com/resources/content/images/resources/wp-content/uploads/2017/01/snapchat-specs.jpg",
-        "title": "Snapchat",
+        "name": "snapchat",
+        "image": "https://i.ibb.co.com/nMwb7PFr/square-snapchat-logo-isolated-white-background-469489-1032.jpg",
+        "title": "Snapchat AR Camera",
         "companyName": "Snap Inc.",
         "id": 7,
         "description": "Snapchat is an innovative multimedia messaging app that allows users to share ephemeral photos and videos with friends. The platform encourages creativity through interactive filters, lenses, and augmented reality effects. With features such as Stories, Discover, and private messaging, Snapchat provides dynamic and engaging ways to communicate and stay updated on trending content. Its unique ephemeral nature promotes spontaneous sharing while prioritizing user privacy and secure interactions.",
@@ -231,8 +238,9 @@
         ]
     },
     {
-        "image": "https://img.freepik.com/premium-vector/vector-tiktok-social-media-logo_1093524-451.jpg?semt=ais_hybrid&w=740&q=80",
-        "title": "TikTok",
+        "name": "tiktok",
+        "image": "https://i.ibb.co.com/gbWp48nf/vector-tiktok-social-media-logo-1093524-451.png",
+        "title": "TikTok Short Videos",
         "companyName": "ByteDance Ltd.",
         "id": 8,
         "description": "TikTok is a globally popular platform for creating, sharing, and discovering short-form videos. It empowers users to showcase creativity, talent, and humor through easy-to-use editing tools, music integration, and special effects. TikTok’s algorithm provides personalized content, ensuring users see videos tailored to their interests. The app fosters engagement through likes, comments, duets, and collaborations, creating a highly interactive community where entertainment, trends, and viral moments converge.",
@@ -264,8 +272,9 @@
         ]
     },
     {
-        "image": "https://img.freepik.com/premium-vector/map-pin-icon_1273375-843.jpg?semt=ais_hybrid&w=740&q=80",
-        "title": "Google Maps",
+        "name": "google map",
+        "image": "https://i.ibb.co.com/pvM6rNGN/images-q-tbn-ANd9-Gc-TS-H3x-IFo-Q3c-UDv5-Jd-YX2-QQAKDIMLS69cz-Q-s.jpg",
+        "title": "Maps & Navigation",
         "companyName": "Google LLC",
         "id": 9,
         "description": "Google Maps is a comprehensive navigation and mapping platform providing real-time GPS, traffic updates, route planning, and local business information. Discover new places, navigate unfamiliar routes, and explore detailed maps with street view and satellite imagery. Google Maps integrates features such as live traffic alerts, public transit schedules, offline navigation, and user reviews, making it an indispensable tool for daily commutes, travel planning, and exploring the world with accuracy and convenience.",
@@ -297,8 +306,9 @@
         ]
     },
     {
-        "image": "https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=700&h=456",
-        "title": "Netflix",
+        "name": "netflix",
+        "image": "https://i.ibb.co.com/dw4W8wRP/05c-It-XL96l4-LE9n02-Wf-DR0h-5-fit-lim-size-1050x591-v1582751026.png",
+        "title": "Movies & TV Shows",
         "companyName": "Netflix Inc.",
         "id": 10,
         "description": "Netflix is a world-leading streaming service offering a vast library of movies, TV shows, documentaries, and original content. Enjoy high-definition streaming, personalized recommendations, offline downloads, and multi-device access. Netflix continuously updates its catalog with fresh, exclusive content, providing entertainment for every taste and preference. With a user-friendly interface and innovative features, Netflix delivers a seamless viewing experience that keeps audiences engaged and entertained globally.",
@@ -330,8 +340,9 @@
         ]
     },
     {
-        "image": "https://cdn.pixabay.com/photo/2021/12/27/10/50/telegram-icon-6896828_1280.png",
-        "title": "Telegram",
+        "name": "telegram",
+        "image": "https://i.ibb.co.com/39yQK6DB/2048px-Telegram-logo-svg.png",
+        "title": "Telegram Messenger",
         "companyName": "Telegram FZ-LLC",
         "id": 11,
         "description": "Telegram is a cloud-based messaging platform emphasizing speed, security, and privacy. Communicate seamlessly with individuals and large groups, share multimedia, and organize conversations with channels and bots. Telegram supports end-to-end encryption for private chats and offers robust tools for file sharing, group management, and customization. Its commitment to security, reliability, and innovation makes it a preferred choice for users seeking both personal and professional communication solutions.",
@@ -363,8 +374,9 @@
         ]
     },
     {
-        "image": " https://img.freepik.com/premium-vector/round-zoom-logo-isolated-white-background_469489-904.jpg?semt=ais_hybrid&w=740&q=80",
-        "title": "Zoom",
+        "name": "zoom",
+        "image": " https://i.ibb.co.com/TxnJHBTX/images-q-tbn-ANd9-Gc-SQcwva-Ga-Nph3-Fk34m8-DF6a-LJZj-Co-FY4cbqbw-s.jpg",
+        "title": "Zoom Meetings",
         "companyName": "Zoom Video Communications Inc.",
         "id": 12,
         "description": "Zoom is a versatile video conferencing solution that enables seamless virtual communication for business, education, and personal use. Conduct high-quality video and audio meetings, webinars, and live events with features like screen sharing, recording, breakout rooms, and collaboration tools. Zoom’s reliable platform ensures consistent performance across devices and internet conditions, making it an essential tool for connecting teams, maintaining productivity, and fostering remote collaboration with ease.",
@@ -396,8 +408,9 @@
         ]
     },
     {
-        "image": "https://img.freepik.com/premium-vector/linkedin-round-logo-vector_667864-108.jpg?semt=ais_hybrid&w=740&q=80",
-        "title": "LinkedIn",
+        "name": "LinkedIn",
+        "image": "https://i.ibb.co.com/ksT6jRgk/2048px-Linked-In-icon-svg.png",
+        "title": "LinkedIn Network",
         "companyName": "Microsoft Corporation",
         "id": 13,
         "description": "LinkedIn is the premier professional networking platform, enabling users to connect with industry professionals, showcase skills, and explore career opportunities. From job searching and recruitment to content sharing and professional learning, LinkedIn provides tools to grow your career, build a strong network, and engage with communities relevant to your profession. Its intuitive interface and robust features make it an essential platform for professionals worldwide.",
@@ -406,16 +419,32 @@
         "ratingAvg": 4.3,
         "downloads": 10,
         "ratings": [
-            {"name": "1 star", "count": 120000},
-            {"name": "2 star", "count": 80000},
-            {"name": "3 star", "count": 200000},
-            {"name": "4 star", "count": 500000},
-            {"name": "5 star", "count": 900000}
+            {
+                "name": "1 star",
+                "count": 120000
+            },
+            {
+                "name": "2 star",
+                "count": 80000
+            },
+            {
+                "name": "3 star",
+                "count": 200000
+            },
+            {
+                "name": "4 star",
+                "count": 500000
+            },
+            {
+                "name": "5 star",
+                "count": 900000
+            }
         ]
     },
     {
-        "image": "https://assets.designhill.com/design-blog/wp-content/uploads/2023/12/4-2.jpg",
-        "title": "Reddit",
+        "image": "https://i.ibb.co.com/WNz1J5Cq/4-2.jpg",
+        "title": "Reddit Community",
+        "name": "Reddit",
         "companyName": "Reddit Inc.",
         "id": 14,
         "description": "Reddit is a vibrant platform for community discussions, trending news, and entertainment. Users can join subreddits to engage with like-minded communities, share content, and participate in discussions on virtually any topic. With voting systems, comment threads, and dynamic content feeds, Reddit enables users to stay informed, entertained, and connected. Its community-driven approach makes it a hub for knowledge, memes, and real-time interactions across the globe.",
@@ -424,15 +453,31 @@
         "ratingAvg": 4.4,
         "downloads": 5,
         "ratings": [
-            {"name": "1 star", "count": 90000},
-            {"name": "2 star", "count": 60000},
-            {"name": "3 star", "count": 150000},
-            {"name": "4 star", "count": 400000},
-            {"name": "5 star", "count": 800000}
+            {
+                "name": "1 star",
+                "count": 90000
+            },
+            {
+                "name": "2 star",
+                "count": 60000
+            },
+            {
+                "name": "3 star",
+                "count": 150000
+            },
+            {
+                "name": "4 star",
+                "count": 400000
+            },
+            {
+                "name": "5 star",
+                "count": 800000
+            }
         ]
     },
     {
-        "image": "https://images.ctfassets.net/h67z7i6sbjau/5zteWRcC1qbgLZoClcMmYl/a0391fdc321eddce7de41152108723b5/Brand_Guidelines_hero_2x.jpg?fm=webp&q=85",
+        "image": "https://i.ibb.co.com/fzQv9h5f/pinterest-logo-pinterest-social-media-icon-free-png.png",
+        "name": "Pinterest",
         "title": "Pinterest",
         "companyName": "Pinterest Inc.",
         "id": 15,
@@ -442,16 +487,32 @@
         "ratingAvg": 4.5,
         "downloads": 10,
         "ratings": [
-            {"name": "1 star", "count": 100000},
-            {"name": "2 star", "count": 70000},
-            {"name": "3 star", "count": 200000},
-            {"name": "4 star", "count": 600000},
-            {"name": "5 star", "count": 1130000}
+            {
+                "name": "1 star",
+                "count": 100000
+            },
+            {
+                "name": "2 star",
+                "count": 70000
+            },
+            {
+                "name": "3 star",
+                "count": 200000
+            },
+            {
+                "name": "4 star",
+                "count": 600000
+            },
+            {
+                "name": "5 star",
+                "count": 1130000
+            }
         ]
     },
     {
-        "image": "https://img.freepik.com/premium-vector/amazon-logotype-white-background-logo-internet-service-sale-goods-online-store-platform-arrow-free-shipping-worldwide-shopping-editorial_661108-8065.jpg",
+        "image": "https://i.ibb.co.com/VG0Ct6Q/amazon-logotype-white-background-logo-internet-service-sale-goods-online-store-platform-arrow-free-s.jpg",
         "title": "Amazon Shopping",
+        "name": "Amazon",
         "companyName": "Amazon Mobile LLC",
         "id": 16,
         "description": "Amazon Shopping is a comprehensive e-commerce platform providing access to millions of products, fast delivery, and secure payment options. Track orders, discover deals, read reviews, and explore curated recommendations. Amazon combines convenience, variety, and reliability, making it a go-to platform for both everyday essentials and unique purchases. Its seamless shopping experience caters to personal and professional needs globally.",
@@ -460,16 +521,32 @@
         "ratingAvg": 4.6,
         "downloads": 50,
         "ratings": [
-            {"name": "1 star", "count": 500000},
-            {"name": "2 star", "count": 300000},
-            {"name": "3 star", "count": 800000},
-            {"name": "4 star", "count": 2000000},
-            {"name": "5 star", "count": 4800000}
+            {
+                "name": "1 star",
+                "count": 500000
+            },
+            {
+                "name": "2 star",
+                "count": 300000
+            },
+            {
+                "name": "3 star",
+                "count": 800000
+            },
+            {
+                "name": "4 star",
+                "count": 2000000
+            },
+            {
+                "name": "5 star",
+                "count": 4800000
+            }
         ]
     },
     {
-        "image": "https://img.freepik.com/premium-vector/gmail-icon_1273375-1247.jpg?semt=ais_hybrid&w=740&q=80",
-        "title": "Gmail",
+        "image": "https://i.ibb.co.com/bjPhWYCn/google-icons-gmail-icons-editable-vector-illustration-981536-461.jpg",
+        "title": "Gmail Service",
+        "name": "Gmail",
         "companyName": "Google LLC",
         "id": 17,
         "description": "Gmail is Google’s secure and intuitive email platform, designed for personal and professional communication. With features like smart categorization, advanced search, spam protection, and integration with Google Workspace, Gmail allows users to efficiently manage emails and attachments. Its seamless synchronization across devices ensures accessibility anytime, anywhere, making it a reliable tool for effective communication and organization.",
@@ -478,16 +555,32 @@
         "ratingAvg": 4.5,
         "downloads": 10,
         "ratings": [
-            {"name": "1 star", "count": 300000},
-            {"name": "2 star", "count": 150000},
-            {"name": "3 star", "count": 400000},
-            {"name": "4 star", "count": 1500000},
-            {"name": "5 star", "count": 3650000}
+            {
+                "name": "1 star",
+                "count": 300000
+            },
+            {
+                "name": "2 star",
+                "count": 150000
+            },
+            {
+                "name": "3 star",
+                "count": 400000
+            },
+            {
+                "name": "4 star",
+                "count": 1500000
+            },
+            {
+                "name": "5 star",
+                "count": 3650000
+            }
         ]
     },
     {
-        "image": "https://img.freepik.com/premium-vector/messenger-app-icon-facebook-meta-platforms_277909-524.jpg?semt=ais_hybrid&w=740&q=80",
-        "title": "Messenger",
+        "image": "https://i.ibb.co.com/67mH8VnW/images-q-tbn-ANd9-Gc-Rm-KGHO0-Io1-C9-T5-V5-E5-S7i-W6w-FAc-ZPv-F2-Tig-s.jpg",
+        "title": "Messenger Chat",
+        "name": "Messenger",
         "companyName": "Meta Platforms Inc.",
         "id": 18,
         "description": "Messenger by Meta Platforms Inc. is an instant messaging app that enables seamless text messaging, voice and video calls with your contacts. Integrating with Facebook, Messenger provides group chats, media sharing, and interactive features such as stickers, reactions, and games. The platform prioritizes security and ease of use, making it a reliable communication tool for personal, social, and professional interactions.",
@@ -496,16 +589,32 @@
         "ratingAvg": 4.3,
         "downloads": 50,
         "ratings": [
-            {"name": "1 star", "count": 400000},
-            {"name": "2 star", "count": 250000},
-            {"name": "3 star", "count": 700000},
-            {"name": "4 star", "count": 1300000},
-            {"name": "5 star", "count": 2250000}
+            {
+                "name": "1 star",
+                "count": 400000
+            },
+            {
+                "name": "2 star",
+                "count": 250000
+            },
+            {
+                "name": "3 star",
+                "count": 700000
+            },
+            {
+                "name": "4 star",
+                "count": 1300000
+            },
+            {
+                "name": "5 star",
+                "count": 2250000
+            }
         ]
     },
     {
-        "image": "https://static.vecteezy.com/system/resources/previews/006/892/625/non_2x/discord-logo-icon-editorial-free-vector.jpg",
-        "title": "Discord",
+        "image": "https://i.ibb.co.com/HfCrBYMf/a85b36ef-ff72-49be-8c06-c385860eecd0.jpg",
+        "title": "Discord Chat",
+        "name": "Discord",
         "companyName": "Discord Inc.",
         "id": 19,
         "description": "Discord is a versatile communication platform for voice, video, and text interactions, designed for gaming communities, teams, and social groups. Users can create servers, join channels, share media, and collaborate through real-time communication. With robust moderation, bots, and customization options, Discord provides a reliable and engaging environment for online communities, collaboration, and entertainment.",
@@ -514,16 +623,32 @@
         "ratingAvg": 4.7,
         "downloads": 5,
         "ratings": [
-            {"name": "1 star", "count": 100000},
-            {"name": "2 star", "count": 70000},
-            {"name": "3 star", "count": 150000},
-            {"name": "4 star", "count": 500000},
-            {"name": "5 star", "count": 1680000}
+            {
+                "name": "1 star",
+                "count": 100000
+            },
+            {
+                "name": "2 star",
+                "count": 70000
+            },
+            {
+                "name": "3 star",
+                "count": 150000
+            },
+            {
+                "name": "4 star",
+                "count": 500000
+            },
+            {
+                "name": "5 star",
+                "count": 1680000
+            }
         ]
     },
     {
-        "image": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHM0OYfiFeMI2p9MWie0CvL99U4GA1gf6_kayTt_kBblFwHwo8BW8JXlqfnYxKPmmBaQDG.nPeYqpMXSUQbV6ZbBSEA8DmA1ZCb0FCzRLHXfKXejobNiJckRWqvjQKuaEKrlx_TU6BUv9BKoWuTnon7o-&format=source",
-        "title": "CapCut",
+        "image": "https://i.ibb.co.com/LhtYgMCV/MO4j-VMbqsk-Wr-BD7-BDUi-Kkym-LPDMl-SFjn-EE-JTCig-Wv6-Uco-ENg-Ak-SKr8bs0-Iv-Ps8-Twv8.png",
+        "name": "CapCut",
+        "title": "CapCut Video Editor",
         "companyName": "Bytedance Pte. Ltd.",
         "id": 20,
         "description": "CapCut is a professional video editing application offering advanced tools, effects, and templates for creating high-quality videos. Users can trim, merge, add transitions, filters, text, and music to videos with ease. CapCut supports multi-layer editing, AI features, and high-resolution exports, making it suitable for both casual creators and professional video editors. Its intuitive interface and powerful features enable fast, creative, and polished video production.",
@@ -532,16 +657,32 @@
         "ratingAvg": 4.5,
         "downloads": 10,
         "ratings": [
-            {"name": "1 star", "count": 200000},
-            {"name": "2 star", "count": 120000},
-            {"name": "3 star", "count": 300000},
-            {"name": "4 star", "count": 700000},
-            {"name": "5 star", "count": 2080000}
+            {
+                "name": "1 star",
+                "count": 200000
+            },
+            {
+                "name": "2 star",
+                "count": 120000
+            },
+            {
+                "name": "3 star",
+                "count": 300000
+            },
+            {
+                "name": "4 star",
+                "count": 700000
+            },
+            {
+                "name": "5 star",
+                "count": 2080000
+            }
         ]
     },
     {
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjH5vKMl_AItCVAIXVHeTZes0EF63RsbFwlA&s",
-        "title": "Candy Crush Saga",
+        "image": "https://i.ibb.co.com/xK72VrbJ/TLUeelx8wcp-Ezf3hoqe-Lx-Ps3ai1td-Gt-AZTIFk-Nqy3gb-Dp1-NPp-NFTOz-SFJDv-Z9nar-FS0.png",
+        "title": "Candy Crush Puzzle",
+        "name": "Candy Crush",
         "companyName": "King",
         "id": 21,
         "description": "Candy Crush Saga is a highly engaging puzzle game where players match colorful candies to progress through levels. Featuring hundreds of challenges, boosters, and special candies, it offers a fun and addictive experience for casual and competitive players alike. Regular updates introduce new levels, events, and rewards, keeping gameplay fresh and exciting. Its vibrant graphics and intuitive mechanics make it accessible for players of all ages.",
@@ -550,16 +691,32 @@
         "ratingAvg": 4.6,
         "downloads": 11,
         "ratings": [
-            {"name": "1 star", "count": 250000},
-            {"name": "2 star", "count": 120000},
-            {"name": "3 star", "count": 400000},
-            {"name": "4 star", "count": 1000000},
-            {"name": "5 star", "count": 4030000}
+            {
+                "name": "1 star",
+                "count": 250000
+            },
+            {
+                "name": "2 star",
+                "count": 120000
+            },
+            {
+                "name": "3 star",
+                "count": 400000
+            },
+            {
+                "name": "4 star",
+                "count": 1000000
+            },
+            {
+                "name": "5 star",
+                "count": 4030000
+            }
         ]
     },
     {
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVFvWrM3f6AYexJjMx44ja0MaoMCTVktYc-w&s",
+        "image": "https://i.ibb.co.com/dsyQ7cCF/1200px-Google-Chrome-icon-February-2022-svg.png",
         "title": "Chrome Browser",
+        "name": "Chrome",
         "companyName": "Google LLC",
         "id": 22,
         "description": "Google Chrome is a fast, secure, and versatile web browser offering a clean interface, efficient performance, and extensive customization. Features include tab management, extensions, incognito mode, cross-device synchronization, and advanced security protections. Chrome’s integration with Google services and support for modern web standards provide a seamless browsing experience for work, entertainment, and everyday online activities.",
@@ -568,11 +725,26 @@
         "ratingAvg": 4.4,
         "downloads": 20,
         "ratings": [
-            {"name": "1 star", "count": 200000},
-            {"name": "2 star", "count": 150000},
-            {"name": "3 star", "count": 400000},
-            {"name": "4 star", "count": 1200000},
-            {"name": "5 star", "count": 3450000}
+            {
+                "name": "1 star",
+                "count": 200000
+            },
+            {
+                "name": "2 star",
+                "count": 150000
+            },
+            {
+                "name": "3 star",
+                "count": 400000
+            },
+            {
+                "name": "4 star",
+                "count": 1200000
+            },
+            {
+                "name": "5 star",
+                "count": 3450000
+            }
         ]
     }
 ]

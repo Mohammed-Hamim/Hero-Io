@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import useAppData from '../Hooks/useAppData';
 import AppCard from '../Components/AppCard/AppCard';
 import AppNotFound from '../Components/AppNotFound/AppNotFound';
- 
+import logoImg from '.././assets/logo.png'
 import LoadingSpinner from '../Components/LoadingSpinner/LoadingSpinner';
 import SearchSpinner from '../Components/SearchSpinner/SearchSpinner';
 
@@ -16,13 +16,13 @@ const Apps = () => {
         const userSearch = e.target.value;
         setSearched(userSearch)
 
-        // Show searching animation
+        // Show search animation
         setSearching(true);
 
-        // Simulate search delay (e.g., 300ms)
+        // delay
         setTimeout(() => {
             setSearching(false);
-        }, 100);
+        }, 300);
     }
 
 
@@ -60,9 +60,9 @@ const Apps = () => {
                 </div>
                 <div className='flex flex-col items-center justify-center'>
                     {
-                        loading ?  <LoadingSpinner></LoadingSpinner>
-                             : searching ?
-                               <SearchSpinner></SearchSpinner>
+                        loading ? <LoadingSpinner></LoadingSpinner>
+                            : searching ?
+                                <SearchSpinner></SearchSpinner>
                                 : searchMatchedApps.length === 0 ? <div className='flex justify-center'>
                                     <AppNotFound  ></AppNotFound>
                                 </div> : <div className='grid  grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4' >{

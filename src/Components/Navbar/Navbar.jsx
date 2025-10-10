@@ -23,7 +23,7 @@ const Navbar = () => {
                     </ul>
                 </div >
                 <div className='flex gap-2 items-center' onClick={() => Navigate()}>
-                    <img className='h-[60px]' src={logo} alt="" />
+                    <img className='h-[40px]' src={logo} alt="" />
                     <a className=" font-bold text-xl text-[#632EE3] md:text-3xl ">HERO.IO</a>
                 </div>
             </div>

@@ -1,16 +1,33 @@
-# React + Vite
+ # Hero.io 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-17.0.2-blue?logo=react&logoColor=white)](https://reactjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.3.0-blue?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/Vite-4.0.0-brightgreen?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Currently, two official plugins are available:
+## Hero.io
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Hero.io** is a modern, responsive web application built with React. It provides users with an intuitive and seamless experience for managing tasks, exploring content, and interacting with dynamic data. Hero.io emphasizes speed, usability, and clean UI design, making it perfect for both personal and professional use.
 
-## React Compiler
+### 🔹 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive and interactive UI
+- Dynamic data visualization with charts
+- Smooth navigation using React Router
+- Beautiful alerts using SweetAlert2
+- LocalStorage support for saving user preferences
+- Lightweight and fast thanks to Vite
 
-## Expanding the ESLint configuration
+### 🔹 Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** – Frontend library for building interactive UIs  
+- **JavaScript (ES6+)** – Programming language  
+- **HTML5 & CSS3** – Structure and styling  
+- **Tailwind CSS** – Utility-first styling  
+- **React Router** – Client-side routing  
+- **SweetAlert2** – Alerts & notifications  
+- **Recharts** – Data visualization  
+- **LocalStorage** – Persisting user data  
+- **Vite** – Fast build & development tool  
+
+ 

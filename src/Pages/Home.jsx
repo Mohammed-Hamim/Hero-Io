@@ -3,7 +3,8 @@ import Banner from '../Components/Banner/Banner';
 import useAppData from '../Hooks/useAppData';
 import AppCard from '../Components/AppCard/AppCard';
 import { Link } from 'react-router';
-import logoImg from '.././assets/logo.png'
+
+import LoadingSpinner from '../Components/LoadingSpinner/LoadingSpinner';
 
 const Home = () => {
     const { apps, loading } = useAppData()
@@ -11,7 +12,7 @@ const Home = () => {
     const trendingApps = apps.slice(0, 8)
 
     return (
-        <div className=' '>
+        <div className=''>
             <Banner></Banner>
 
             <div className='flex my-6 items-center justify-center gap-3 flex-col p-4'>
@@ -20,23 +21,14 @@ const Home = () => {
             </div>
             <div className='flex flex-col justify-center items-center'>
                 {
-                    loading ? <div className="flex items-center justify-center gap-2 ">
-                        <div className='animate-spin'>
-                            <img className='h-15' src={logoImg} alt="" />
-                        </div>
-                        <p className='text-center text-gray-500 text-3xl font-semibold'>
-                            Loading...
-                        </p>
-                    </div> :
-
-                        <div className='grid container mx-auto grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-4'>
+                    loading ?
+                        <LoadingSpinner></LoadingSpinner>
+                        :
+                        <div className='grid container  p-3 mx-auto grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-4'>
                             {
                                 trendingApps.map(app => <AppCard key={app.id} app={app}></AppCard>)
                             }
-
                         </div>
-
-
                 }
             </div>
             <div className='flex items-center justify-center my-4'>

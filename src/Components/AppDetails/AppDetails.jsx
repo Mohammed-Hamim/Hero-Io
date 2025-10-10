@@ -1,33 +1,31 @@
-import React, { useState } from 'react';
+import React, { createContext, use, useState } from 'react';
 import { Link, useParams } from 'react-router';
 import useAppData from '../../Hooks/useAppData';
 import downloadImg from '../../assets/icon-downloads.png';
 import reviewImg from '../../assets/icon-review.png';
 import ratingImg from '../../assets/icon-ratings.png';
 import logoImg from '../../assets/logo.png'
+import Swal from 'sweetalert2'
 
 
 
 import { Bar, CartesianGrid, ComposedChart, Legend, Line, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import { addToLocalStorage } from '../../Utills/CustomFunction';
+import { ToggleContext } from '../../Layouts/MainLayout';
+import LoadingSpinner from '../LoadingSpinner/LoadingSpinner';
 
 
 
 const AppDetails = () => {
+    const [toggle, setToggle] = use(ToggleContext)
+
     const { id } = useParams()
     const { apps, loading } = useAppData()
-    const [toggle, setToggle] = useState(false)// disable and enable state
+    // const [toggle, setToggle] = useState(false)// disable and enable state
     //loading 
     if (loading) {
         return <>
-            <div className="flex items-center justify-center gap-2 ">
-                <div className='animate-spin'>
-                    <img className='h-15' src={logoImg} alt="" />
-                </div>
-                <p className='text-center text-gray-500 text-3xl font-semibold'>
-                    Loading...
-                </p>
-            </div>
+            <LoadingSpinner></LoadingSpinner>
         </>
     }
     const clickedApp = apps.find(app => app.id === Number(id))
@@ -37,30 +35,49 @@ const AppDetails = () => {
     const reversedRatings = [...ratings].sort((a, b) => b.count - a.count);
     //installation function
     const handleInstall = (id) => {
+
+
+       
+
         addToLocalStorage(id)
-         setToggle(false)
-        // setToggle(true)
+        setToggle(!toggle)
+        // const swalWithBootstrapButtons = Swal.mixin({
+        //     customClass: {
+        //         confirmButton: "btn btn-success",
+        //         cancelButton: "btn btn-danger"
+        //     },
+        //     buttonsStyling: false
+        // });
+        // swalWithBootstrapButtons.fire({
+        //     title: "Are you sure?",
+        //     text: "You won't to install this app?",
+        //     icon: "question",
+        //     showCancelButton: true,
+        //     confirmButtonText: "Install!",
+        //     cancelButtonText: "No, cancel!",
+        //     reverseButtons: true
+        // }).then((result) => {
+        //     if (result.isConfirmed) {
 
-        // const prevInstalled = JSON.parse(localStorage.getItem('installedList')) || []
-        // let updateList = [];
-        // if (prevInstalled) {
-        //     updateList = [...prevInstalled, clickedApp]
-        // } else {
-        //     updateList.push(clickedApp)
-        // }
-        // localStorage.setItem('installedList', JSON.stringify(updateList))
-        // console.log(updateList)
+        //         swalWithBootstrapButtons.fire({
+        //             title: "Installed",
+        //             text: "App has been installed.",
+        //             icon: "success"
+        //         });
+        //     } else if (
+        //         /* Read more about handling dismissals below */
+        //         result.dismiss === Swal.DismissReason.cancel
+        //     ) {
+        //         swalWithBootstrapButtons.fire({
+        //             title: "Cancelled",
+        //             text: "App is not installed :)",
+        //             icon: "error"
+        //         });
+        //     }
+        // });
 
-        //     const prevInstalled = JSON.parse(localStorage.getItem('installedList')) || [];
-
-        // prevent duplicate installs
-        // const alreadyInstalled = prevInstalled.some(app => app.id === clickedApp.id);
-        // if (!alreadyInstalled) {
-        //     const updatedList = [...prevInstalled, clickedApp];
-        //     localStorage.setItem('installedList', JSON.stringify(updatedList));
 
 
-        // }
 
 
     }

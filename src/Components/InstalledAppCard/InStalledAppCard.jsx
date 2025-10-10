@@ -1,13 +1,14 @@
 import { StarIcon } from 'lucide-react';
 import React from 'react';
 
-const InStalledAppCard = ({ app }) => {
-    const { image, title, downloads, ratingAvg, size } = app;
+
+const InStalledAppCard = ({ app, handleRemove }) => {
+
+    const { id, image, title, downloads, ratingAvg, size } = app;
     return (
         <div className='flex justify-between items-center bg-white rounded-sm p-2'>
             <div className='flex  justify-between items-center gap-5'>
-                <div className='
-                 rounded-sm p-2 bg-gray-300'>
+                <div className='rounded-sm p-2 bg-gray-300'>
                     <img className='md:h-[100px] h-[50px] w-[50px] md:w-[100px]' src={image} alt="" />
                 </div>
                 <div>
@@ -19,7 +20,7 @@ const InStalledAppCard = ({ app }) => {
                     </div>
                 </div>
             </div>
-            <button className='btn font-bold text-white bg-[#00D390]'>Uninstall</button>
+            <button onClick={() => handleRemove(id)} className='btn font-bold text-white bg-[#00D390]'>Uninstall</button>
         </div>
     );
 };

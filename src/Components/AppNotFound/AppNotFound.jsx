@@ -1,6 +1,6 @@
 import React from 'react';
 import AppErrImg from "../../assets/App-Error.png"
-import {   useNavigate } from 'react-router';
+import { useNavigate } from 'react-router';
 
 const AppNotFound = () => {
     const Navigate = useNavigate()
@@ -10,7 +10,7 @@ const AppNotFound = () => {
                 <img src={AppErrImg} alt="" />
                 <h3 className='text-4xl font-bold'>OPPS!! APP NOT FOUND</h3>
                 <p>The App you are requesting is not found on our system.  please try another apps</p>
-                <button onClick={()=>Navigate(-3)} className='btn bg-blue-800 text-white'>Go Back</button>
+                <button onClick={() => Navigate(-3)} className='btn bg-blue-800 text-white'>Go Back</button>
             </div>
         </div>
     );

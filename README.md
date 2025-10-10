@@ -27,7 +27,7 @@
 
 - **React** – Frontend library for building interactive UIs  
 - **JavaScript (ES6+)** – Programming language  
-- **HTML5 & CSS3** – Structure and styling  
+- **HTML5** – Structure   
 - **Tailwind CSS** – Utility-first CSS framework  
 - **React Router** – Client-side routing  
 - **SweetAlert2** – Alerts & notifications  
@@ -43,30 +43,4 @@ Check out the app live here: [Hero.io Apps](https://hamim-hero-io.netlify.app/ap
 
 ---
 
-## 📸 Screenshots
-
-**App List Page**  
-![App List](https://via.placeholder.com/800x400?text=App+List+Page)
-
-**App Details Page**  
-![App Details](https://via.placeholder.com/800x400?text=App+Details+Page)
-
-**Ratings Chart**  
-![Ratings Chart](https://via.placeholder.com/800x400?text=Ratings+Chart)
-
----
-
-## 📝 Getting Started
-
-### Prerequisites
-
-- Node.js >= 14.x
-- npm or yarn
-
-### Installation
-
-```bash
-git clone https://github.com/your-username/hero.io.git
-cd hero.io
-npm install  # or yarn install
-npm run dev  # or yarn dev
+ 

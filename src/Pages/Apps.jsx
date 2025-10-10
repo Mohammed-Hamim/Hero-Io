@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import useAppData from '../Hooks/useAppData';
 import AppCard from '../Components/AppCard/AppCard';
 import AppNotFound from '../Components/AppNotFound/AppNotFound';
-import logoImg from '.././assets/logo.png'
 import LoadingSpinner from '../Components/LoadingSpinner/LoadingSpinner';
 import SearchSpinner from '../Components/SearchSpinner/SearchSpinner';
 
@@ -77,9 +76,3 @@ const Apps = () => {
 };
 
 export default Apps;
-
-//  searchMatchedApps.length ?
-
-// : <div className='flex justify-center'>
-//                                     <AppNotFound  ></AppNotFound>
-//                                 </div>

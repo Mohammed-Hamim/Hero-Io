@@ -27,7 +27,7 @@
 
 - **React** – Frontend library for building interactive UIs  
 - **JavaScript (ES6+)** – Programming language  
-- **HTML5** – Structure   
+- **HTML5 & CSS3** – Structure  and styling
 - **Tailwind CSS** – Utility-first CSS framework  
 - **React Router** – Client-side routing  
 - **SweetAlert2** – Alerts & notifications  
